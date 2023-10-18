@@ -68,6 +68,8 @@
     <Compile Include="Assets\Scripts\movingTarget.cs" />
     <Compile Include="Assets\Scripts\Clamp.cs" />
     <Compile Include="Assets\Scripts\move.cs" />
+    <Compile Include="Assets\Scripts\collider.cs" />
+    <Compile Include="Assets\Scripts\PHP.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

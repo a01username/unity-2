@@ -41,10 +41,19 @@ public class PlayerController : MonoBehaviour
     }
 
     //Create OnCollisionExit function below
-
+    private void OnCollisionExit(Collision collision)
+    {
+        if (collision.collider.CompareTag("Floor"))
+        {
+            RestartLevel();
+        }
+    }
 
     //Create OnCollisionStay function below 
-    
+    private void OnCollisionStay(Collision collision)
+    {
+        DisplayTime(time);
+    }
 
     //END OF CODE
 
